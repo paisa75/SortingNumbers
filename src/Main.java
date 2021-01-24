@@ -16,16 +16,6 @@ public class Main {
             } else arr[i] = input;
         }
         System.out.println("************* movement count is :" + Sorter.minMoves(arr, arr.length));
-
-
-     /*   int length = arr.length;
-        length = RemoveDuplicateInArrayExample3.removeDuplicateElements(arr, length);
-        //printing array elements
-        for (int i = 0; i < length; i++)
-
-
-            System.out.print(arr[i] + " ");
-        System.out.println(NumberSorting.minMoves(arr, length));*/
     }
 
     private static boolean checkIsDuplicated(int input, int[] array) {
