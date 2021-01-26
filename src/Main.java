@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter size of the array");
         int arraySize = scan.nextInt();
@@ -15,7 +16,7 @@ public class Main {
                 i--;
             } else arr[i] = input;
         }
-        System.out.println("************* movement count is :" + Sorter.minMoves(arr, arr.length));
+        System.out.println("************* movement count is :" + Sorter.sorting(arr, arr.length));
     }
 
     private static boolean checkIsDuplicated(int input, int[] array) {
@@ -26,5 +27,6 @@ public class Main {
         }
         return false;
     }
+
 
 }
